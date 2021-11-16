@@ -14,6 +14,7 @@ public class bjo_2558 {
 		int B = Integer.parseInt(br.readLine());
 		
 		System.out.println(A+B);
+		//test
 
 	}
 
