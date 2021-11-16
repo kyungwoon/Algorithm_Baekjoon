@@ -10,6 +10,7 @@ public class bjo_1000 {
 		a = sc.nextInt();
 		b= sc.nextInt();
 		System.out.println(a + b);
+		//test3
 
 	}
 
