@@ -15,6 +15,7 @@ public class bjo_2558 {
 		
 		System.out.println(A+B);
 		//test
+		//test2
 
 	}
 
