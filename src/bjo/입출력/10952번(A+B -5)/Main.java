@@ -13,6 +13,7 @@ public class Main {
 	            if(num1 ==0 && num2 ==0) {
 	            	sc.close();
 	            	break;
+	            	
 	            }
 	            System.out.println(num1 + num2);
 	        }
