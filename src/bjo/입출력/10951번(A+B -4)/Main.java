@@ -8,9 +8,10 @@ public class Main {
 
         while(sc.hasNextInt()) {
         	int num1 = sc.nextInt();
-         int num2 = sc.nextInt();
+        	int num2 = sc.nextInt();
             
             System.out.println(num1 + num2);
+            //test
         }
     }
 }
