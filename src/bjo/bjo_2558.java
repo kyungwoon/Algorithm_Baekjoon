@@ -17,6 +17,7 @@ public class bjo_2558 {
 		//test
 		//test2
 		//test5
+		//test6
 
 	}
 
