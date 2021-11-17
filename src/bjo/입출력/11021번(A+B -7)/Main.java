@@ -24,7 +24,6 @@ public class Main{
 		br.close();
 		bw.flush();
 		bw.close();
-		//test
 		
 			
 	}
