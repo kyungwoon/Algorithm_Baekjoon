@@ -31,7 +31,5 @@ public class Main {
 			System.out.println(Math.max(dp[0][n], dp[1][n]));
 
 		}
-
 	}
-
 }
