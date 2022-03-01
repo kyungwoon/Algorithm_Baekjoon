@@ -1,4 +1,4 @@
-package chapter_1_기본수학;
+package chapter_1_기본수학.bjo_2893;
 
 import java.io.BufferedReader;
 import java.io.IOException;
