@@ -6,6 +6,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+/*
+    1. 아항계수? 주어진 크기의 (순서 없는) 조합의 가짓수
+    2. N과 K가 주어질때 N! / K! * (N-K)!
+ */
 public class Main {
     public static void main(String[] args) throws IOException {
 
@@ -15,7 +19,7 @@ public class Main {
         int K = Integer.parseInt(st.nextToken());
 
 
-        System.out.println(factorial(N) / (factorial(N - K) * factorial(K)));
+        System.out.println(factorial(N) / (factorial(K) * factorial(N - K)));
     }
 
     public static int factorial(int n) {
