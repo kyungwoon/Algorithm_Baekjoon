@@ -15,11 +15,13 @@ package chapter_4_동적계획법.bjo_1003_피보나치함수;
     }
 }
 ====================================================================
-
+*
+동적 계획법(dynamic programming)이란 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법
+*
     1. 피보나치 / 0, 1, 1, 2, 3, 5, 8, 13 , 21....
     2. fibonacci(3) = fibonacci(2) + fibonacci(1)
        fibonacci(3) = fibonacci(1) + fibonacci(0) + fibonacci(1)
-                        1 / 1           0 / 0           1 / 1    => 1 + 1 = 2
+                        1 / 1           0 / 0           1 / 1    => 1 + 0 + 1 = 2
     2. 0.25초라는 시간 제한이 있기에 메모이제이션 사용
        fibonacci(4) = fibonacci(3) + fibonacci(2)
 
