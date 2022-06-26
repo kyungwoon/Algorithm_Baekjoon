@@ -28,7 +28,7 @@ public class Main {
             System.out.println("A");
         } else if (A_count < B_count) {
             System.out.println("B");
-        } else if (A_count == B_count) {
+        } else {
             System.out.println("D");
         }
     }
