@@ -1,29 +1,26 @@
 package bjo_10093;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class Main{
-    public static void main(String[] args){
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+public class Main {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         long A = sc.nextLong();
         long B = sc.nextLong();
 
-        if(A<B) {
-            System.out.println(B-A-1);
-            for(long i = A+1; i < B; i++) {
+        if (A < B) {
+            System.out.println(B - A - 1);
+            for (long i = A + 1; i < B; i++) {
                 System.out.print(i + " ");
             }
-        }else if(A>B) {
-            System.out.println(A-B-1);
-            for(long i = B+1; i < A; i++) {
+        } else if (A > B) {
+            System.out.println(A - B - 1);
+            for (long i = B + 1; i < A; i++) {
                 System.out.print(i + " ");
             }
 
-        }else {
+        } else {
             System.out.println(0);
         }
     }
