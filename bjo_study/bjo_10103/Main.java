@@ -24,6 +24,7 @@ public class Main {
                 continue;
             }
         }
+
         System.out.println(A_sum);
         System.out.println(B_sum);
     }
