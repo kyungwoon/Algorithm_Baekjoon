@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         int K = Integer.parseInt(br.readLine());
         int[] aArr = new int[45];    // A의 개수
         int[] bArr = new int[45];    // B의 개수
