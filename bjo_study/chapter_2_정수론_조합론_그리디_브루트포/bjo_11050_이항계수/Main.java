@@ -18,7 +18,6 @@ public class Main {
         int N = Integer.parseInt(st.nextToken());
         int K = Integer.parseInt(st.nextToken());
 
-
         System.out.println(factorial(N) / (factorial(K) * factorial(N - K)));
     }
 
