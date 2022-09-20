@@ -1,3 +1,5 @@
+package bjo_10951;
+
 import java.util.Scanner;
 
 public class Main {
